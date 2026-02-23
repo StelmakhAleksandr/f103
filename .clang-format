@@ -1,0 +1,30 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: WebKit
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: false
+AllowShortLambdasOnASingleLine: Inline
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: false
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+BreakBeforeBraces: Custom
+BreakInheritanceList: BeforeComma
+ColumnLimit: 0
+WhitespaceSensitiveMacros: ['Q_PROPERTY']
+KeepEmptyLinesAtTheStartOfBlocks: false
+NamespaceIndentation: None
+TabWidth: 4
+...
